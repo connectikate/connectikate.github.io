@@ -1,1 +1,10 @@
+#constructionImg {
+  display:block;
+  width:400px;
+  height:auto;
+  margin:auto;
+}
+
+
 body {margin:0px;width:100%;background-color:#ffffff;}
+#galleryContainer {width:80%;max-width:474px;margin:auto;}
