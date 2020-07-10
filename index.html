@@ -7,10 +7,10 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('set', {'user_id': '12345'}); // Set the user ID using signed-in user_id.
 
-  gtag('config', 'UA-171234071-1');
-  gtag('config', 'GA_MEASUREMENT_ID', {
-  'user_id': '12345'
+  gtag('config', 'UA-171234071-1' );
+
 });
 </script>
 
